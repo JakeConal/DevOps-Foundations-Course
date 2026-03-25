@@ -5,6 +5,7 @@ name: <WORKFLOW NAME>
 # TODO-STEP 2: Define the Trigger Events
 # Uncomment the following lines to trigger the workflow on push and pull request events
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**/*.py'
